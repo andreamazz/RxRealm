@@ -229,8 +229,9 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 9MF8G8D9Y5;
+						DevelopmentTeam = H72GR44F4M;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 					9CEB7A461CC834340077C44D = {
 						CreatedOnToolsVersion = 7.3;
@@ -549,7 +550,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9MF8G8D9Y5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H72GR44F4M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/Realm\"",
@@ -557,14 +559,16 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/RxCocoa\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/RxRealm\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/RxSwift-iOS8.0\"",
-					"$PODS_CONFIGURATION_BUILD_DIR",
+					$PODS_CONFIGURATION_BUILD_DIR,
 				);
 				INFOPLIST_FILE = RxRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE = "e5bd78bf-247a-4b72-bdfa-dcfd23629b2b";
+				PROVISIONING_PROFILE_SPECIFIER = "General Development";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -574,7 +578,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9MF8G8D9Y5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H72GR44F4M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/Realm\"",
@@ -582,14 +587,16 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/RxCocoa\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/RxRealm\"",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/RxSwift-iOS8.0\"",
-					"$PODS_CONFIGURATION_BUILD_DIR",
+					$PODS_CONFIGURATION_BUILD_DIR,
 				);
 				INFOPLIST_FILE = RxRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE = "e5bd78bf-247a-4b72-bdfa-dcfd23629b2b";
+				PROVISIONING_PROFILE_SPECIFIER = "General Development";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -606,7 +613,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rxswiftcommunity.RxRealm-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -622,7 +629,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rxswiftcommunity.RxRealm-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

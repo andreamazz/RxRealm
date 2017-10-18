@@ -5,16 +5,16 @@ use_frameworks!
 target 'RxRealm_Example' do
   platform :ios, '8.0'
   pod 'RxRealm', :path => '../'
-  pod 'RxSwift',    '~> 3'
-  pod 'RxCocoa',    '~> 3'
-  pod 'RealmSwift', '~> 2'
+  pod 'RxSwift',    '~> 4'
+  pod 'RxCocoa',    '~> 4'
+  pod 'RealmSwift', '~> 3'
 end
 
 target 'RxRealm_Tests' do
   platform :ios, '8.0'
-  pod 'RxSwift',    '~> 3'
-  pod 'RxCocoa',    '~> 3'
-  pod 'RxTest',    '~> 3'
-  pod 'RealmSwift', '~> 2'
+  pod 'RxSwift',    '~> 4'
+  pod 'RxCocoa',    '~> 4'
+  pod 'RxTest',    '~> 4'
+  pod 'RealmSwift', '~> 3'
   pod 'RxRealm', :path => '../'
 end
